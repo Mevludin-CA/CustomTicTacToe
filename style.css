@@ -1,3 +1,36 @@
 * {
     box-sizing: border-box;
 }
+.container{
+    width: 300px;
+    overflow: hidden;
+    margin: 200px auto 0 auto;
+}
+.container .box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    transition: all .25s ease-in-out;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+.container .box:hover {
+    background-color: #283350;
+    color: #f5f5f5;
+}
+button{
+    background-color: #3fc1c9;
+    color: #f5f5f5;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 160px;
+    height: 42px;
+    font-size: 22px;
+    display: block;
+    margin: 15px auto;
+}
